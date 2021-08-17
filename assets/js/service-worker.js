@@ -4,9 +4,6 @@ var theme_path = ''; //'//wp-content/themes/justmarkup.com/';
 
 
 var offlineFundamentals = [
-    'web-assets/uploads/2021/03/art-gallery-corfu-logo.png',
-
-
     /* 'fonts/pt-serif-v11-latin-regular.woff',
     'fonts/pt-serif-v11-latin-regular.woff2',
     'fonts/pt-serif-v11-latin-italic.woff',
