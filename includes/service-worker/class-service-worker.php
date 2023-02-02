@@ -77,11 +77,11 @@ class WP_Service_Worker
             if (!document.body.classList.contains('logged-in')) {
               navigator.serviceWorker.register('/service-worker.js');
             }
+            var baseurl = "<?php echo site_url(); ?>";
             navigator.serviceWorker.ready.then(function(reg) {
               var links = document.querySelectorAll('a:not([target="_blank"]):not([href=""]):not([href="#"])');
               var cached = [];
               if (links) {
-                console.log(baseurl);
                 links.forEach(function(link) {
                   var href = link.getAttribute('href');
 
